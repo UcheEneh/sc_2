@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="newSC2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/newSC2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/newSC2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="AbilityStatus.h" />
+		<Unit filename="BuildStatus.h" />
+		<Unit filename="Event.h" />
+		<Unit filename="Factory.h" />
+		<Unit filename="GameObject.h" />
+		<Unit filename="LarvaeSpecialAbility.h" />
+		<Unit filename="PrintStatus.h" />
+		<Unit filename="ProtossFactory.h" />
+		<Unit filename="ProtossRaceControl.h" />
+		<Unit filename="ProtossWorkerControl.h" />
+		<Unit filename="Publisher.h" />
+		<Unit filename="RaceControl.h" />
+		<Unit filename="SpecialAbility.h" />
+		<Unit filename="Strategy.h" />
+		<Unit filename="Subscriber.h" />
+		<Unit filename="TechTreeEntry.h" />
+		<Unit filename="TerranWorkerControl.h" />
+		<Unit filename="WorkerControl.h" />
+		<Unit filename="ZergFactory.h" />
+		<Unit filename="ZergRaceControl.h" />
+		<Unit filename="ZergWorkerControl.h" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
